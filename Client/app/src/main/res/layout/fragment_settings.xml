@@ -1,0 +1,82 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	tools:context="com.pako.nules.client.SettingsFragment">
+
+	<!-- TODO: Update blank fragment layout -->
+
+	<EditText
+		android:id="@+id/settings_name_text"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:layout_marginEnd="8dp"
+		android:layout_marginStart="8dp"
+		android:layout_marginTop="16dp"
+		android:ems="10"
+		android:hint="Введіть ім\'я"
+		android:inputType="textPersonName"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toTopOf="parent"
+		tools:layout_editor_absoluteX="72dp" />
+
+	<EditText
+		android:id="@+id/settings_secondname_text"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:layout_marginEnd="8dp"
+		android:layout_marginStart="8dp"
+		android:layout_marginTop="16dp"
+		android:ems="10"
+		android:hint="Введіть прізвище"
+		android:inputType="textPersonName"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintRight_toRightOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/settings_name_text"
+		tools:layout_editor_absoluteY="116dp" />
+
+	<Spinner
+		android:id="@+id/settings_group_spinner"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:layout_marginEnd="8dp"
+		android:layout_marginRight="16dp"
+		android:layout_marginStart="8dp"
+		android:layout_marginTop="16dp"
+		android:entries="@array/groups"
+		app:layout_constraintRight_toRightOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/settings_secondname_text"
+		tools:layout_editor_absoluteX="8dp"
+		tools:layout_editor_absoluteY="172dp" />
+
+	<CheckBox
+		android:id="@+id/settings_alert_checkbox"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:layout_marginEnd="8dp"
+		android:layout_marginStart="8dp"
+		android:layout_marginTop="16dp"
+		android:checked="false"
+		android:text="Повідомляти про початок пар"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/settings_group_spinner" />
+
+	<EditText
+		android:id="@+id/settings_key_text"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:layout_marginEnd="8dp"
+		android:layout_marginStart="8dp"
+		android:layout_marginTop="8dp"
+		android:ems="10"
+		android:hint="Ключ викладача"
+		android:inputType="textPersonName"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/settings_alert_checkbox" />
+
+</android.support.constraint.ConstraintLayout>

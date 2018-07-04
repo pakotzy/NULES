@@ -1,0 +1,198 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	tools:context="com.pako.nules.client.MessageFragment">
+
+	<!-- TODO: Update blank fragment layout -->
+
+	<android.support.constraint.ConstraintLayout
+		android:id="@+id/messagelayout1"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginEnd="8dp"
+		android:layout_marginStart="8dp"
+		android:layout_marginTop="8dp"
+		android:background="@drawable/elemborder"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toTopOf="parent">
+
+		<TextView
+			android:id="@+id/textView17"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_marginEnd="8dp"
+			android:text="Белла Голуб"
+			android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+			app:layout_constraintEnd_toStartOf="@+id/textView18"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toTopOf="parent" />
+
+		<TextView
+			android:id="@+id/textView18"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_marginEnd="0dp"
+			android:layout_marginStart="8dp"
+			android:text="9 Червня 2017 року"
+			android:textAlignment="textEnd"
+			android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+			app:layout_constraintEnd_toEndOf="parent"
+			app:layout_constraintStart_toEndOf="@+id/textView17"
+			app:layout_constraintTop_toTopOf="parent"
+			tools:layout_editor_absoluteX="101dp"
+			tools:layout_editor_absoluteY="0dp" />
+
+		<TextView
+			android:id="@+id/textView19"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginStart="0dp"
+			android:layout_marginTop="16dp"
+			android:text="Тема"
+			android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toBottomOf="@+id/textView17"
+			tools:layout_editor_absoluteX="163dp"
+			tools:layout_editor_absoluteY="49dp" />
+
+		<TextView
+			android:id="@+id/textView20"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_marginEnd="0dp"
+			android:layout_marginStart="0dp"
+			android:layout_marginTop="8dp"
+			android:text="Попередній захист магістерської роботи"
+			android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+			app:layout_constraintEnd_toEndOf="parent"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toBottomOf="@+id/textView19"
+			tools:layout_editor_absoluteX="29dp"
+			tools:layout_editor_absoluteY="57dp" />
+
+		<TextView
+			android:id="@+id/textView21"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginStart="0dp"
+			android:layout_marginTop="16dp"
+			android:text="Основний текст"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toBottomOf="@+id/textView20"
+			tools:layout_editor_absoluteX="9dp"
+			tools:layout_editor_absoluteY="106dp" />
+
+		<TextView
+			android:id="@+id/textView22"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_marginEnd="0dp"
+			android:layout_marginStart="0dp"
+			android:layout_marginTop="8dp"
+			android:text="З 7 по 9 червня в 15 корпусі університету відбудеться попередній захист магістерських робіт. З собою мати презентацію та підготовлений виступ."
+			android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+			app:layout_constraintEnd_toEndOf="parent"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toBottomOf="@+id/textView21"
+			tools:layout_editor_absoluteX="29dp"
+			tools:layout_editor_absoluteY="131dp" />
+	</android.support.constraint.ConstraintLayout>
+
+	<android.support.constraint.ConstraintLayout
+		android:id="@+id/messagelayout2"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginEnd="8dp"
+		android:layout_marginStart="8dp"
+		android:background="@drawable/elemborder"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		tools:layout_editor_absoluteY="8dp"
+		app:layout_constraintTop_toBottomOf="@id/messagelayout1"
+		android:layout_marginTop="8dp">
+
+		<TextView
+			android:id="@+id/textView717"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_marginEnd="8dp"
+			android:text="Белла Голуб"
+			android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+			app:layout_constraintEnd_toStartOf="@+id/textView718"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toTopOf="parent" />
+
+		<TextView
+			android:id="@+id/textView718"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_marginEnd="0dp"
+			android:layout_marginStart="8dp"
+			android:text="16 Червня 2017 року"
+			android:textAlignment="textEnd"
+			android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+			app:layout_constraintEnd_toEndOf="parent"
+			app:layout_constraintStart_toEndOf="@+id/textView717"
+			app:layout_constraintTop_toTopOf="parent"
+			tools:layout_editor_absoluteX="101dp"
+			tools:layout_editor_absoluteY="0dp" />
+
+		<TextView
+			android:id="@+id/textView719"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginStart="0dp"
+			android:layout_marginTop="16dp"
+			android:text="Тема"
+			android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toBottomOf="@+id/textView717"
+			tools:layout_editor_absoluteX="163dp"
+			tools:layout_editor_absoluteY="49dp" />
+
+		<TextView
+			android:id="@+id/textView720"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_marginEnd="0dp"
+			android:layout_marginStart="0dp"
+			android:layout_marginTop="8dp"
+			android:text="Захист магістерської роботи"
+			android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+			app:layout_constraintEnd_toEndOf="parent"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toBottomOf="@+id/textView719"
+			tools:layout_editor_absoluteX="29dp"
+			tools:layout_editor_absoluteY="57dp" />
+
+		<TextView
+			android:id="@+id/textView721"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginStart="0dp"
+			android:layout_marginTop="16dp"
+			android:text="Основний текст"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toBottomOf="@+id/textView720"
+			tools:layout_editor_absoluteX="9dp"
+			tools:layout_editor_absoluteY="106dp" />
+
+		<TextView
+			android:id="@+id/textView722"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_marginEnd="0dp"
+			android:layout_marginStart="0dp"
+			android:layout_marginTop="8dp"
+			android:text="З 14 по 16 червня в корпусі №15, аудиторія 230, відбудеться захист магістерських робіт. З собою мати підписаний диплом, залікову кніжку, презентацію та підготовлений виступ."
+			android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+			app:layout_constraintEnd_toEndOf="parent"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toBottomOf="@+id/textView721"
+			tools:layout_editor_absoluteX="29dp"
+			tools:layout_editor_absoluteY="131dp" />
+	</android.support.constraint.ConstraintLayout>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,159 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	tools:context="com.pako.nules.client.SearchFragment">
+
+	<!-- TODO: Update blank fragment layout -->
+
+	<android.support.constraint.ConstraintLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+
+		<Spinner
+			android:id="@+id/spinner3"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:entries="@array/faculty"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toTopOf="parent"
+			app:layout_constraintEnd_toStartOf="@+id/spinner4"
+			android:layout_marginEnd="0dp" />
+
+		<Spinner
+			android:id="@+id/spinner4"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:entries="@array/teacher"
+			app:layout_constraintEnd_toEndOf="parent"
+			app:layout_constraintStart_toEndOf="@+id/spinner3"
+			app:layout_constraintTop_toTopOf="parent" />
+
+		<android.support.constraint.ConstraintLayout
+			android:id="@+id/constraintLayout830"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="8dp"
+			android:background="@drawable/elemborder"
+			app:layout_constraintEnd_toEndOf="parent"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toBottomOf="@+id/spinner3">
+
+			<com.pako.nules.client.UI.VerticalTextView
+				android:id="@+id/verticalTextView832"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginBottom="8dp"
+				android:layout_marginStart="8dp"
+				android:layout_marginTop="8dp"
+				android:gravity="bottom"
+				android:text="Четвер"
+				android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+				app:layout_constraintBottom_toBottomOf="parent"
+				app:layout_constraintStart_toStartOf="parent"
+				app:layout_constraintTop_toTopOf="parent" />
+
+			<android.support.constraint.ConstraintLayout
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_marginBottom="8dp"
+				android:layout_marginEnd="8dp"
+				android:layout_marginStart="8dp"
+				android:layout_marginTop="8dp"
+				app:layout_constraintBottom_toBottomOf="parent"
+				app:layout_constraintEnd_toEndOf="parent"
+				app:layout_constraintStart_toEndOf="@+id/verticalTextView832"
+				app:layout_constraintTop_toTopOf="parent">
+
+				<android.support.constraint.ConstraintLayout
+					android:id="@+id/constraintLayout837"
+					android:layout_width="0dp"
+					android:layout_height="wrap_content"
+					android:layout_marginEnd="0dp"
+					android:layout_marginTop="8dp"
+					android:background="@drawable/elemborder"
+					android:onClick="mainFirstClick"
+					app:layout_constraintBottom_toTopOf="@+id/constraintLayout39"
+					app:layout_constraintEnd_toEndOf="parent"
+					app:layout_constraintStart_toStartOf="parent"
+					app:layout_constraintTop_toTopOf="parent"
+					tools:layout_editor_absoluteX="0dp">
+
+					<com.pako.nules.client.UI.VerticalTextView
+						android:id="@+id/verticalTextView836"
+						android:layout_width="25dp"
+						android:layout_height="wrap_content"
+						android:layout_marginBottom="8dp"
+						android:layout_marginTop="8dp"
+						android:gravity="bottom"
+						android:text="10:05"
+						android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+						app:layout_constraintBottom_toBottomOf="parent"
+						app:layout_constraintStart_toStartOf="parent"
+						app:layout_constraintTop_toTopOf="parent" />
+
+					<TextView
+						android:id="@+id/textView835"
+						android:layout_width="0dp"
+						android:layout_height="0dp"
+						android:layout_marginBottom="0dp"
+						android:layout_marginStart="8dp"
+						android:gravity="center"
+						android:text="Data mining 213 к.15"
+						android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+						app:layout_constraintBottom_toBottomOf="parent"
+						app:layout_constraintEnd_toEndOf="parent"
+						app:layout_constraintStart_toEndOf="@+id/verticalTextView836"
+						app:layout_constraintTop_toTopOf="parent"
+						tools:layout_editor_absoluteY="0dp" />
+				</android.support.constraint.ConstraintLayout>
+
+				<android.support.constraint.ConstraintLayout
+					android:id="@+id/constraintLayout839"
+					android:layout_width="0dp"
+					android:layout_height="wrap_content"
+					android:layout_marginBottom="8dp"
+					android:layout_marginEnd="0dp"
+					android:layout_marginTop="0dp"
+					android:background="@drawable/elemborder"
+					android:onClick="mainFirstClick"
+					app:layout_constraintBottom_toBottomOf="parent"
+					app:layout_constraintEnd_toEndOf="parent"
+					app:layout_constraintStart_toStartOf="parent"
+					app:layout_constraintTop_toBottomOf="@+id/constraintLayout837">
+
+					<com.pako.nules.client.UI.VerticalTextView
+						android:id="@+id/verticalTextView837"
+						android:layout_width="25dp"
+						android:layout_height="wrap_content"
+						android:layout_marginBottom="8dp"
+						android:layout_marginTop="8dp"
+						android:gravity="bottom"
+						android:text="11:40"
+						android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+						app:layout_constraintBottom_toBottomOf="parent"
+						app:layout_constraintStart_toStartOf="parent"
+						app:layout_constraintTop_toTopOf="parent" />
+
+					<TextView
+						android:id="@+id/textView816"
+						android:layout_width="0dp"
+						android:layout_height="0dp"
+						android:layout_marginBottom="0dp"
+						android:layout_marginStart="8dp"
+						android:gravity="center"
+						android:text="Data mining 213 к.15"
+						android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+						app:layout_constraintBottom_toBottomOf="parent"
+						app:layout_constraintEnd_toEndOf="parent"
+						app:layout_constraintStart_toEndOf="@+id/verticalTextView837"
+						app:layout_constraintTop_toTopOf="parent"
+						tools:layout_editor_absoluteY="0dp" />
+				</android.support.constraint.ConstraintLayout>
+			</android.support.constraint.ConstraintLayout>
+		</android.support.constraint.ConstraintLayout>
+
+	</android.support.constraint.ConstraintLayout>
+
+</ScrollView>

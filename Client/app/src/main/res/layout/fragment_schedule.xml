@@ -1,0 +1,596 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	tools:context="com.pako.nules.client.ScheduleFragment">
+
+	<!-- TODO: Update blank fragment layout -->
+
+	<android.support.constraint.ConstraintLayout
+		android:id="@+id/constraintLayout5"
+		android:layout_width="0dp"
+		android:layout_height="0dp"
+		android:layout_marginBottom="0dp"
+		android:layout_marginTop="8dp"
+		android:background="@drawable/elemborder"
+		app:layout_constraintBottom_toTopOf="@id/constraintLayout8"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toTopOf="parent">
+
+		<com.pako.nules.client.UI.VerticalTextView
+			android:id="@+id/verticalTextView3"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="8dp"
+			android:layout_marginStart="8dp"
+			android:layout_marginTop="8dp"
+			android:gravity="bottom"
+			android:text="Вівторок"
+			android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toTopOf="parent" />
+
+		<android.support.constraint.ConstraintLayout
+			android:layout_width="0dp"
+			android:layout_height="0dp"
+			android:layout_marginBottom="8dp"
+			android:layout_marginEnd="8dp"
+			android:layout_marginStart="8dp"
+			android:layout_marginTop="8dp"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintEnd_toEndOf="parent"
+			app:layout_constraintStart_toEndOf="@+id/verticalTextView3"
+			app:layout_constraintTop_toTopOf="parent">
+
+			<android.support.constraint.ConstraintLayout
+				android:id="@+id/constraintLayout"
+				android:layout_width="0dp"
+				android:layout_height="0dp"
+				android:layout_marginBottom="0dp"
+				android:layout_marginTop="0dp"
+				android:background="@drawable/elemborder"
+				android:onClick="mainFirstClick"
+				app:layout_constraintBottom_toTopOf="@+id/constraintLayout2"
+				app:layout_constraintEnd_toEndOf="parent"
+				app:layout_constraintStart_toStartOf="parent"
+				app:layout_constraintTop_toTopOf="parent">
+
+				<com.pako.nules.client.UI.VerticalTextView
+					android:id="@+id/verticalTextView4"
+					android:layout_width="25dp"
+					android:layout_height="wrap_content"
+					android:layout_marginEnd="0dp"
+					android:layout_weight="1"
+					android:gravity="bottom"
+					android:text="14:50"
+					android:textAlignment="center"
+					android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+					android:visibility="visible"
+					app:layout_constraintBottom_toBottomOf="parent"
+					app:layout_constraintEnd_toStartOf="@+id/textView12"
+					app:layout_constraintStart_toStartOf="parent"
+					app:layout_constraintTop_toTopOf="parent"
+					tools:layout_editor_absoluteY="0dp" />
+
+				<TextView
+					android:id="@+id/textView12"
+					android:layout_width="0dp"
+					android:layout_height="0dp"
+					android:layout_marginEnd="0dp"
+					android:layout_marginStart="0dp"
+					android:layout_weight="1"
+					android:gravity="center"
+					android:text="Об\'єктно-орієнтоване Моделювання 225 к.15"
+					android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+					android:visibility="visible"
+					app:layout_constraintBottom_toBottomOf="parent"
+					app:layout_constraintEnd_toEndOf="parent"
+					app:layout_constraintStart_toEndOf="@+id/verticalTextView4"
+					app:layout_constraintTop_toTopOf="parent" />
+			</android.support.constraint.ConstraintLayout>
+
+			<android.support.constraint.ConstraintLayout
+				android:id="@+id/constraintLayout2"
+				android:layout_width="0dp"
+				android:layout_height="0dp"
+				android:layout_marginBottom="0dp"
+				android:layout_marginEnd="0dp"
+				android:layout_marginStart="0dp"
+				android:layout_marginTop="0dp"
+				android:background="@drawable/elemborder"
+				android:onClick="mainSecondClick"
+				app:layout_constraintBottom_toBottomOf="parent"
+				app:layout_constraintEnd_toEndOf="parent"
+				app:layout_constraintStart_toStartOf="parent"
+				app:layout_constraintTop_toBottomOf="@+id/constraintLayout"
+				tools:layout_editor_absoluteX="330dp">
+
+				<com.pako.nules.client.UI.VerticalTextView
+					android:id="@+id/verticalTextView"
+					android:layout_width="25dp"
+					android:layout_height="wrap_content"
+					android:layout_marginEnd="8dp"
+					android:gravity="bottom"
+					android:text="16:25"
+					android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+					app:layout_constraintBottom_toBottomOf="parent"
+					app:layout_constraintStart_toStartOf="parent"
+					app:layout_constraintTop_toTopOf="parent" />
+
+				<TextView
+					android:id="@+id/textView3"
+					android:layout_width="0dp"
+					android:layout_height="0dp"
+					android:layout_marginEnd="0dp"
+					android:layout_marginStart="0dp"
+					android:gravity="center"
+					android:text="Принципи розподіленого і мережевого програмування 317 к.11"
+					android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+					app:layout_constraintBottom_toBottomOf="parent"
+					app:layout_constraintEnd_toEndOf="parent"
+					app:layout_constraintStart_toEndOf="@+id/verticalTextView"
+					app:layout_constraintTop_toTopOf="parent" />
+			</android.support.constraint.ConstraintLayout>
+
+		</android.support.constraint.ConstraintLayout>
+
+	</android.support.constraint.ConstraintLayout>
+
+	<android.support.constraint.ConstraintLayout
+		android:id="@+id/constraintLayout8"
+		android:layout_width="0dp"
+		android:layout_height="0dp"
+		android:layout_marginBottom="8dp"
+		android:layout_marginTop="8dp"
+		android:background="@drawable/elemborder"
+		app:layout_constraintBottom_toTopOf="@+id/constraintLayout30"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@id/constraintLayout5">
+
+		<com.pako.nules.client.UI.VerticalTextView
+			android:id="@+id/verticalTextView2"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="8dp"
+			android:layout_marginStart="8dp"
+			android:layout_marginTop="8dp"
+			android:gravity="bottom"
+			android:text="Середа"
+			android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toTopOf="parent" />
+
+		<android.support.constraint.ConstraintLayout
+			android:layout_width="0dp"
+			android:layout_height="0dp"
+			android:layout_marginBottom="8dp"
+			android:layout_marginEnd="8dp"
+			android:layout_marginStart="8dp"
+			android:layout_marginTop="8dp"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintEnd_toEndOf="parent"
+			app:layout_constraintStart_toEndOf="@+id/verticalTextView2"
+			app:layout_constraintTop_toTopOf="parent">
+
+			<android.support.constraint.ConstraintLayout
+				android:id="@+id/constraintLayout6"
+				android:layout_width="0dp"
+				android:layout_height="0dp"
+				android:background="@drawable/elemborder"
+				app:layout_constraintBottom_toTopOf="@+id/constraintLayout7"
+				app:layout_constraintEnd_toEndOf="parent"
+				app:layout_constraintStart_toStartOf="parent"
+				app:layout_constraintTop_toTopOf="parent">
+
+				<com.pako.nules.client.UI.VerticalTextView
+					android:id="@+id/verticalTextView5"
+					android:layout_width="25dp"
+					android:layout_height="wrap_content"
+					android:layout_marginEnd="0dp"
+					android:layout_marginTop="0dp"
+					android:gravity="bottom"
+					android:text="14:50"
+					android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+					app:layout_constraintBottom_toBottomOf="parent"
+					app:layout_constraintEnd_toStartOf="@+id/textView4"
+					app:layout_constraintStart_toStartOf="parent"
+					app:layout_constraintTop_toTopOf="parent" />
+
+				<TextView
+					android:id="@+id/textView4"
+					android:layout_width="0dp"
+					android:layout_height="0dp"
+					android:layout_marginBottom="0dp"
+					android:layout_marginStart="0dp"
+					android:gravity="center"
+					android:text="Інтелектуальні системи 213 к.15"
+					android:textAlignment="center"
+					android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+					app:layout_constraintBottom_toBottomOf="parent"
+					app:layout_constraintEnd_toEndOf="parent"
+					app:layout_constraintStart_toEndOf="@+id/verticalTextView5"
+					app:layout_constraintTop_toTopOf="parent"
+					tools:layout_editor_absoluteY="0dp" />
+			</android.support.constraint.ConstraintLayout>
+
+			<android.support.constraint.ConstraintLayout
+				android:id="@+id/constraintLayout7"
+				android:layout_width="0dp"
+				android:layout_height="0dp"
+				android:layout_marginEnd="0dp"
+				android:layout_marginTop="0dp"
+				android:background="@drawable/elemborder"
+				app:layout_constraintBottom_toTopOf="@+id/constraintLayout9"
+				app:layout_constraintEnd_toEndOf="parent"
+				app:layout_constraintStart_toStartOf="parent"
+				app:layout_constraintTop_toBottomOf="@+id/constraintLayout6"
+				tools:layout_editor_absoluteX="0dp">
+
+				<com.pako.nules.client.UI.VerticalTextView
+					android:id="@+id/verticalTextView6"
+					android:layout_width="25dp"
+					android:layout_height="wrap_content"
+					android:layout_marginBottom="0dp"
+					android:gravity="bottom"
+					android:text="16:25"
+					android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+					app:layout_constraintBottom_toBottomOf="parent"
+					app:layout_constraintStart_toStartOf="parent"
+					app:layout_constraintTop_toTopOf="parent" />
+
+				<TextView
+					android:id="@+id/textView5"
+					android:layout_width="0dp"
+					android:layout_height="0dp"
+					android:layout_marginBottom="0dp"
+					android:layout_marginStart="8dp"
+					android:gravity="center"
+					android:text="Безпека і надійність 317 к.11"
+					android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+					app:layout_constraintBottom_toBottomOf="parent"
+					app:layout_constraintEnd_toEndOf="parent"
+					app:layout_constraintStart_toEndOf="@+id/verticalTextView6"
+					app:layout_constraintTop_toTopOf="parent"
+					tools:layout_editor_absoluteY="0dp" />
+			</android.support.constraint.ConstraintLayout>
+
+			<android.support.constraint.ConstraintLayout
+				android:id="@+id/constraintLayout9"
+				android:layout_width="0dp"
+				android:layout_height="0dp"
+				android:layout_marginBottom="0dp"
+				android:layout_marginEnd="0dp"
+				android:layout_marginTop="0dp"
+				android:background="@drawable/elemborder"
+				app:layout_constraintBottom_toBottomOf="parent"
+				app:layout_constraintEnd_toEndOf="parent"
+				app:layout_constraintStart_toStartOf="parent"
+				app:layout_constraintTop_toBottomOf="@+id/constraintLayout7">
+
+				<com.pako.nules.client.UI.VerticalTextView
+					android:id="@+id/verticalTextView7"
+					android:layout_width="25dp"
+					android:layout_height="wrap_content"
+					android:layout_marginEnd="8dp"
+					android:gravity="bottom"
+					android:text="18:00"
+					android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+					app:layout_constraintBottom_toBottomOf="parent"
+					app:layout_constraintEnd_toStartOf="@+id/textView16"
+					app:layout_constraintStart_toStartOf="parent"
+					app:layout_constraintTop_toTopOf="parent" />
+
+				<TextView
+					android:id="@+id/textView16"
+					android:layout_width="0dp"
+					android:layout_height="0dp"
+					android:layout_marginBottom="0dp"
+					android:layout_marginStart="8dp"
+					android:gravity="center"
+					android:text="Безпека і надійність 317 к.11"
+					android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+					app:layout_constraintBottom_toBottomOf="parent"
+					app:layout_constraintEnd_toEndOf="parent"
+					app:layout_constraintStart_toEndOf="@+id/verticalTextView7"
+					app:layout_constraintTop_toTopOf="parent"
+					tools:layout_editor_absoluteY="0dp" />
+			</android.support.constraint.ConstraintLayout>
+		</android.support.constraint.ConstraintLayout>
+	</android.support.constraint.ConstraintLayout>
+
+	<android.support.constraint.ConstraintLayout
+		android:id="@+id/constraintLayout30"
+		android:layout_width="0dp"
+		android:layout_height="0dp"
+		android:layout_marginBottom="0dp"
+		android:layout_marginTop="8dp"
+		android:background="@drawable/elemborder"
+		app:layout_constraintBottom_toTopOf="@id/constraintLayout40"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/constraintLayout8">
+
+		<com.pako.nules.client.UI.VerticalTextView
+			android:id="@+id/verticalTextView32"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="8dp"
+			android:layout_marginStart="8dp"
+			android:layout_marginTop="8dp"
+			android:gravity="bottom"
+			android:text="Четвер"
+			android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toTopOf="parent" />
+
+		<android.support.constraint.ConstraintLayout
+			android:layout_width="0dp"
+			android:layout_height="0dp"
+			android:layout_marginBottom="8dp"
+			android:layout_marginEnd="8dp"
+			android:layout_marginStart="8dp"
+			android:layout_marginTop="8dp"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintEnd_toEndOf="parent"
+			app:layout_constraintStart_toEndOf="@+id/verticalTextView32"
+			app:layout_constraintTop_toTopOf="parent">
+
+			<android.support.constraint.ConstraintLayout
+				android:id="@+id/constraintLayout36"
+				android:layout_width="0dp"
+				android:layout_height="0dp"
+				android:background="@drawable/elemborder"
+				app:layout_constraintBottom_toTopOf="@+id/constraintLayout37"
+				app:layout_constraintEnd_toEndOf="parent"
+				app:layout_constraintStart_toStartOf="parent"
+				app:layout_constraintTop_toTopOf="parent">
+
+				<com.pako.nules.client.UI.VerticalTextView
+					android:id="@+id/verticalTextView35"
+					android:layout_width="25dp"
+					android:layout_height="wrap_content"
+					android:layout_marginEnd="0dp"
+					android:layout_marginTop="0dp"
+					android:gravity="bottom"
+					android:text="08:30"
+					android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+					app:layout_constraintBottom_toBottomOf="parent"
+					app:layout_constraintEnd_toStartOf="@+id/textView34"
+					app:layout_constraintStart_toStartOf="parent"
+					app:layout_constraintTop_toTopOf="parent" />
+
+				<TextView
+					android:id="@+id/textView34"
+					android:layout_width="0dp"
+					android:layout_height="0dp"
+					android:layout_marginBottom="0dp"
+					android:layout_marginStart="0dp"
+					android:gravity="center"
+					android:text="Принципи розподіленого і мережевого програмування 225 к.15"
+					android:textAlignment="center"
+					android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+					app:layout_constraintBottom_toBottomOf="parent"
+					app:layout_constraintEnd_toEndOf="parent"
+					app:layout_constraintStart_toEndOf="@+id/verticalTextView35"
+					app:layout_constraintTop_toTopOf="parent"
+					tools:layout_editor_absoluteY="0dp" />
+			</android.support.constraint.ConstraintLayout>
+
+			<android.support.constraint.ConstraintLayout
+				android:id="@+id/constraintLayout37"
+				android:layout_width="0dp"
+				android:layout_height="0dp"
+				android:layout_marginEnd="0dp"
+				android:layout_marginTop="0dp"
+				android:background="@drawable/elemborder"
+				android:onClick="mainFirstClick"
+				app:layout_constraintBottom_toTopOf="@+id/constraintLayout39"
+				app:layout_constraintEnd_toEndOf="parent"
+				app:layout_constraintStart_toStartOf="parent"
+				app:layout_constraintTop_toBottomOf="@+id/constraintLayout36"
+				tools:layout_editor_absoluteX="0dp">
+
+				<com.pako.nules.client.UI.VerticalTextView
+					android:id="@+id/verticalTextView36"
+					android:layout_width="25dp"
+					android:layout_height="wrap_content"
+					android:layout_marginBottom="0dp"
+					android:gravity="bottom"
+					android:text="10:05"
+					android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+					app:layout_constraintBottom_toBottomOf="parent"
+					app:layout_constraintStart_toStartOf="parent"
+					app:layout_constraintTop_toTopOf="parent" />
+
+				<TextView
+					android:id="@+id/textView35"
+					android:layout_width="0dp"
+					android:layout_height="0dp"
+					android:layout_marginBottom="0dp"
+					android:layout_marginStart="8dp"
+					android:gravity="center"
+					android:text="Data mining 213 к.15"
+					android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+					app:layout_constraintBottom_toBottomOf="parent"
+					app:layout_constraintEnd_toEndOf="parent"
+					app:layout_constraintStart_toEndOf="@+id/verticalTextView36"
+					app:layout_constraintTop_toTopOf="parent"
+					tools:layout_editor_absoluteY="0dp" />
+			</android.support.constraint.ConstraintLayout>
+
+			<android.support.constraint.ConstraintLayout
+				android:id="@+id/constraintLayout39"
+				android:layout_width="0dp"
+				android:layout_height="0dp"
+				android:layout_marginBottom="0dp"
+				android:layout_marginEnd="0dp"
+				android:layout_marginTop="0dp"
+				android:background="@drawable/elemborder"
+				android:onClick="mainFirstClick"
+				app:layout_constraintBottom_toBottomOf="parent"
+				app:layout_constraintEnd_toEndOf="parent"
+				app:layout_constraintStart_toStartOf="parent"
+				app:layout_constraintTop_toBottomOf="@+id/constraintLayout37">
+
+				<com.pako.nules.client.UI.VerticalTextView
+					android:id="@+id/verticalTextView37"
+					android:layout_width="25dp"
+					android:layout_height="wrap_content"
+					android:gravity="bottom"
+					android:text="11:40"
+					android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+					app:layout_constraintBottom_toBottomOf="parent"
+					app:layout_constraintStart_toStartOf="parent"
+					app:layout_constraintTop_toTopOf="parent" />
+
+				<TextView
+					android:id="@+id/textView316"
+					android:layout_width="0dp"
+					android:layout_height="0dp"
+					android:layout_marginBottom="0dp"
+					android:layout_marginStart="8dp"
+					android:gravity="center"
+					android:text="Data mining 213 к.15"
+					android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+					app:layout_constraintBottom_toBottomOf="parent"
+					app:layout_constraintEnd_toEndOf="parent"
+					app:layout_constraintStart_toEndOf="@+id/verticalTextView37"
+					app:layout_constraintTop_toTopOf="parent"
+					tools:layout_editor_absoluteY="0dp" />
+			</android.support.constraint.ConstraintLayout>
+		</android.support.constraint.ConstraintLayout>
+	</android.support.constraint.ConstraintLayout>
+
+	<android.support.constraint.ConstraintLayout
+		android:id="@+id/constraintLayout40"
+		android:layout_width="0dp"
+		android:layout_height="0dp"
+		android:layout_marginBottom="0dp"
+		android:layout_marginTop="8dp"
+		android:background="@drawable/elemborder"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/constraintLayout30">
+
+		<com.pako.nules.client.UI.VerticalTextView
+			android:id="@+id/verticalTextView42"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="8dp"
+			android:layout_marginStart="8dp"
+			android:layout_marginTop="8dp"
+			android:gravity="bottom"
+			android:text="П\'ятниця"
+			android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+			android:visibility="visible"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toTopOf="parent" />
+
+		<android.support.constraint.ConstraintLayout
+			android:layout_width="0dp"
+			android:layout_height="0dp"
+			android:layout_marginBottom="8dp"
+			android:layout_marginEnd="8dp"
+			android:layout_marginStart="8dp"
+			android:layout_marginTop="8dp"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintEnd_toEndOf="parent"
+			app:layout_constraintStart_toEndOf="@+id/verticalTextView42"
+			app:layout_constraintTop_toTopOf="parent">
+
+			<android.support.constraint.ConstraintLayout
+				android:id="@+id/constraintLayout46"
+				android:layout_width="0dp"
+				android:layout_height="0dp"
+				android:background="@drawable/elemborder"
+				android:onClick="mainFirstClick"
+				app:layout_constraintBottom_toTopOf="@+id/constraintLayout47"
+				app:layout_constraintEnd_toEndOf="parent"
+				app:layout_constraintStart_toStartOf="parent"
+				app:layout_constraintTop_toTopOf="parent">
+
+				<com.pako.nules.client.UI.VerticalTextView
+					android:id="@+id/verticalTextView45"
+					android:layout_width="25dp"
+					android:layout_height="wrap_content"
+					android:layout_marginEnd="0dp"
+					android:layout_marginTop="0dp"
+					android:gravity="bottom"
+					android:text="08:30"
+					android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+					app:layout_constraintBottom_toBottomOf="parent"
+					app:layout_constraintEnd_toStartOf="@+id/textView44"
+					app:layout_constraintStart_toStartOf="parent"
+					app:layout_constraintTop_toTopOf="parent" />
+
+				<TextView
+					android:id="@+id/textView44"
+					android:layout_width="0dp"
+					android:layout_height="0dp"
+					android:layout_marginBottom="0dp"
+					android:layout_marginStart="8dp"
+					android:gravity="center"
+					android:text="Методологія і організація  214 к.15"
+					android:textAlignment="center"
+					android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+					app:layout_constraintBottom_toBottomOf="parent"
+					app:layout_constraintEnd_toEndOf="parent"
+					app:layout_constraintStart_toEndOf="@+id/verticalTextView45"
+					app:layout_constraintTop_toTopOf="parent"
+					tools:layout_editor_absoluteY="0dp" />
+			</android.support.constraint.ConstraintLayout>
+
+			<android.support.constraint.ConstraintLayout
+				android:id="@+id/constraintLayout47"
+				android:layout_width="0dp"
+				android:layout_height="0dp"
+				android:layout_marginBottom="0dp"
+				android:layout_marginEnd="0dp"
+				android:layout_marginTop="0dp"
+				android:background="@drawable/elemborder"
+				android:onClick="mainFirstClick"
+				app:layout_constraintBottom_toBottomOf="parent"
+				app:layout_constraintEnd_toEndOf="parent"
+				app:layout_constraintStart_toStartOf="parent"
+				app:layout_constraintTop_toBottomOf="@+id/constraintLayout46"
+				tools:layout_editor_absoluteX="0dp">
+
+				<com.pako.nules.client.UI.VerticalTextView
+					android:id="@+id/verticalTextView46"
+					android:layout_width="25dp"
+					android:layout_height="wrap_content"
+					android:layout_marginBottom="0dp"
+					android:gravity="bottom"
+					android:text="10:05"
+					android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+					app:layout_constraintBottom_toBottomOf="parent"
+					app:layout_constraintStart_toStartOf="parent"
+					app:layout_constraintTop_toTopOf="parent" />
+
+				<TextView
+					android:id="@+id/textView45"
+					android:layout_width="0dp"
+					android:layout_height="0dp"
+					android:layout_marginBottom="0dp"
+					android:layout_marginStart="8dp"
+					android:gravity="center"
+					android:text="Методологія і організація  230 к.15"
+					android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+					app:layout_constraintBottom_toBottomOf="parent"
+					app:layout_constraintEnd_toEndOf="parent"
+					app:layout_constraintStart_toEndOf="@+id/verticalTextView46"
+					app:layout_constraintTop_toTopOf="parent"
+					tools:layout_editor_absoluteY="0dp" />
+			</android.support.constraint.ConstraintLayout>
+
+		</android.support.constraint.ConstraintLayout>
+	</android.support.constraint.ConstraintLayout>
+</android.support.constraint.ConstraintLayout>
